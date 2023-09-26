@@ -4,7 +4,7 @@
 
         <div class='main-tree'>
             <div>
-                <h5><i class="fa-solid fa-yin-yang"></i> Terapias</h5>
+                <h5><Icon name="mingcute:yinyang-fill"/> Terapias</h5>
             </div>
         </div>
         <div class='main-four'>
@@ -27,35 +27,6 @@
 
     </div>
 </template>
-<script>
-export default {
-    scrollToTop: true,
-    head: {
-        title: 'Terapias | Deep Acupuntura',
-        htmlAttrs: {
-            lang: 'pt-br'
-        },
-        meta: [
-            { charset: 'utf-8' },
-            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-            { hid: 'description', name: 'description', content: '' },
-            { hid: 'keywords', name: 'description', content: 'Acupuntura' },
-            { name: 'format-detection', content: 'telephone=no' },
-            { name: 'msapplication-TileColor', content: '#860d0d' },
-            { name: 'theme-color', content: '#860d0d' }
-        ],
-        link: [
-            { rel: 'apple-touch-icon', size: '180x180', href: '/img/MyLogoBoldFundo.png' },
-            { rel: 'icon', type: 'image/png', size: '32x32', href: '/img/MyLogoBoldFundo.png' },
-            { rel: 'icon', type: 'image/png', size: '16x16', href: '/img/MyLogoBoldFundo.png' },
-            { rel: 'apple-touch-icon', size: '180x180', href: '/img/apple-touch-icon.png' },
-            { rel: 'manifest', href: '/img/site.webmanifest' },
-            { rel: 'mask-icon', href: '/img/safari-pinned-tab.svg', color: '#860d0d' }
-        ]
-    }
-}
-</script>
-
 <style scoped>
 a {
     text-decoration: none;
@@ -183,7 +154,7 @@ code {
     justify-content: flex-start;
     flex-direction: column;
     margin: 0px 0 0 0;
-    color: #fff;
+    color: #efc289;
     background: #860d0d;
     overflow-x: auto;
 
@@ -226,6 +197,7 @@ code {
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
+    
 }
 
 .main-four-card a {
@@ -233,20 +205,26 @@ code {
     padding: 2px 6px;
     margin: 10px 4px;
     border-radius: 0% 10% 10% 10%;
-
+    
     padding: 4px;
-  font-size: 14px;
-  color: #ddd;
-  border: solid .5px ;
-  border-radius: 7px;
-  transition: all .3s linear;
+    font-size: 14px;
+    color: #efc289;
+    border: solid .5px #d8d8d840;
+    border-radius: 7px;
+    transition: all .3s linear;
     background-color: #d8d8d840;
 
-  display: flex;
+    display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   flex-direction: column;
+}
+
+.main-four-card a:hover {
+        color: #efc289;
+    border: solid 0.5px #e23a28;
+    text-shadow: -1px 1px 10px #efc289;
 }
 
 .main-four-card span {
@@ -330,9 +308,10 @@ code {
 
 
 a.router-link-exact-active {
-    background-color: #e23a2890;
-    color: #fff;
+    background-color: #e23a2860;
+    color: #efc289;
     border-radius: 7px;
+    text-shadow: -1px 1px 10px #efc289;
 }
 
 @media only screen and (max-width: 369px) {}

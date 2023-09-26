@@ -12,11 +12,10 @@ export default {
   <div class='nav-two'>
     <div>
       <div>
-        <a @click="$router.go(-1)" @click.native="scrollToTop()"><i class="fas main-l fa-arrow-left"></i></a>
       </div>
       <div>
-        <!-- <RouterLink to=""><i class="fa-solid fa-share-nodes"></i></RouterLink >
-        <RouterLink to=""><i class="fa-solid fa-bars"></i></RouterLink > -->
+        <NuxtLink to=""><i class="fa-solid fa-share-nodes"></i></NuxtLink >
+        <NuxtLink to=""><Icon name="fa6-solid:bars-staggered"/></NuxtLink >
       </div>
     </div>
   </div>
@@ -29,7 +28,7 @@ export default {
   top: -1px;
   background: #860d0d;
   border-radius: 0% 0% 10% 10%;
-  box-shadow: 0px .5px 5px #e23a2850;
+  box-shadow: 0px .5px 5px #e23a2820;
   z-index: 10;
 }
 

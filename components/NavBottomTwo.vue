@@ -11,6 +11,10 @@ export default {
 <template>
   <div>
     <div class="nav-bottom">
+      <NuxtLink to='/' @click.native="scrollToTop()">
+        <Icon name="material-symbols:home-rounded" />
+        <h5>INÍCIO</h5>
+      </NuxtLink >
       <NuxtLink to='/terapias' @click.native="scrollToTop()">
         <Icon name="mingcute:yinyang-fill" />
         <h5>TERAPIAS</h5>
@@ -23,6 +27,10 @@ export default {
         <Icon name="mdi:map-marker-radius" />
         <h5>LOCAL</h5>
       </NuxtLink >
+      <!-- <NuxtLink to='/sobre' @click.native="scrollToTop()">
+        <Icon name="healthicons:ambulatory-clinic" />
+        <h5>SOBRE</h5>
+      </NuxtLink > -->
     </div>
   </div>
 </template>

@@ -1,15 +1,10 @@
 
 <template>
-  <main>
-    <div>
-      
-      <NuxtLoadingIndicator color='repeating-linear-gradient(to right,#00dc82 0%,#34cdfe 50%,#fadb41 100%)'/> <!-- here -->
+  <NuxtLoadingIndicator color='repeating-linear-gradient(to right,#00dc82 0%,#34cdfe 50%,#fadb41 100%)'/> <!-- here -->
       <NavTop />
       <div class='anima'>
         <Profile/>
         <Home />
       </div>
       <NavBottom />
-    </div>
-  </main>
 </template>

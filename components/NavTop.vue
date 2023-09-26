@@ -12,25 +12,23 @@ export default {
   <div class='nav-two'>
     <div>
       <div>
-        
       </div>
       <div>
-        <!-- <RouterLink to=""><i class="fa-solid fa-share-nodes"></i></RouterLink >
-        <RouterLink to=""><i class="fa-solid fa-bars"></i></RouterLink > -->
+        <NuxtLink to=""><i class="fa-solid fa-share-nodes"></i></NuxtLink>
+        <NuxtLink to="">
+          <Icon name="fa6-solid:bars-staggered" />
+        </NuxtLink>
       </div>
     </div>
   </div>
-
 </template>
 <style scoped>
 .nav-two {
   height: 35px;
-  /*
   position: sticky;
   top: -1px;
-  */
   background: #860d0d;
-  border-radius: 0% 0% 10% 10%;
+  border-radius: 0% 0% 10% 10%; 
   z-index: 10;
 }
 

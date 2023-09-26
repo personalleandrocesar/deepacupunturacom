@@ -39,12 +39,12 @@
 
 
   </div>
-    <div class='hr'></div>
+    <div class='hr' id="acupuntura"></div>
 
     <div class='main-tree acupuntura'>
       <div>
         <h3><Icon name="mingcute:yinyang-fill" /> Terapias</h3>
-        <h4 id="acupuntura"><Icon name="solar:alt-arrow-right-bold" /> Acupuntura</h4>
+        <h4 ><Icon name="solar:alt-arrow-right-bold" /> Acupuntura</h4>
       
         <h5 class="detail">
           Descubra os benefícios transformadores da acupuntura!
@@ -66,23 +66,22 @@
             <Icon name="ph:calendar-plus-fill"/> Agendar
           </div>
         </a>
-    <div class='hr'></div>
+    <div class='hr' id="auriculoterapia"></div>
     <div class='main-four auriculoterapia'>
       <div>
-        <h4 id="auriculoterapia">Auriculoterapia <Icon name="solar:alt-arrow-left-bold" /></h4>
+        <h4 >Auriculoterapia <Icon name="solar:alt-arrow-left-bold" /></h4>
       
         <h5 class="detail">
-          Descubra os benefícios transformadores da acupuntura!
+          Explore os incríveis benefícios da auriculoterapia!
         </h5>
         <h5>  
-          Uma prática terapêutica milenar que se originou na medicina tradicional 
-          chinesa. A técnica aborda a inserção de agulhas 
-          finas em pontos específicos do corpo, promovendo um equilíbrio 
-          energético e capacitando a autorregulação do seu organismo. 
+          A auriculoterapia concentra-se na estimulação de pontos específicos na 
+          orelha para promover o equilíbrio energético e facilitar a autorregulação 
+          do seu corpo.
           </h5>
           <h5>
-          Amplamente estudada e aplicada em todo o mundo, a acupuntura 
-          oferece uma gama variada de vantagens para aqueles que a exploram.
+          Amplamente pesquisada e praticada globalmente, a auriculoterapia oferece 
+          uma ampla gama de vantagens.
            </h5>
       </div>
     </div>
@@ -91,23 +90,22 @@
               <Icon name="ph:calendar-plus-fill"/> Agendar
             </div>
           </a>
-    <div class='hr'></div>
+    <div class='hr' id="ventosaterapia"></div>
     <div class='main-five ventosaterapia'>
       <div>
-        <h4 id="ventosaterapia"><Icon name="solar:alt-arrow-right-bold" /> Ventosaterapia</h4>
+        <h4><Icon name="solar:alt-arrow-right-bold" /> Ventosaterapia</h4>
       
         <h5  class="detail">
-          Descubra os benefícios transformadores da acupuntura!
+          Sinta o poder e os benefícios da ventosaterapia!
         </h5>
         <h5>  
-          Uma prática terapêutica milenar que se originou na medicina tradicional 
-          chinesa. A técnica aborda a inserção de agulhas 
-          finas em pontos específicos do corpo, promovendo um equilíbrio 
-          energético e capacitando a autorregulação do seu organismo. 
+          Tendo raízes em várias culturas antigas, a ventosaterapia envolve a aplicação 
+          de copos de sucção na pele para estimular o fluxo sanguíneo e energético, 
+          promovendo o equilíbrio do corpo. 
           </h5>
           <h5>
-          Amplamente estudada e aplicada em todo o mundo, a acupuntura 
-          oferece uma gama variada de vantagens para aqueles que a exploram.
+          Amplamente estudada e praticada em todo o mundo, a ventosaterapia 
+          oferece uma ampla gama de vantagens para aqueles que a exploram.
            </h5>
       </div>
     </div>
@@ -116,23 +114,22 @@
               <Icon name="ph:calendar-plus-fill"/> Agendar
             </div>
           </a>
-    <div class='hr'></div>
+    <div class='hr' id="craniopuntura"></div>
     <div class='main-six craniopuntura'>
       <div>
-        <h4 id="craniopuntura">Crâniopuntura <Icon name="solar:alt-arrow-left-bold" /></h4>
+        <h4 >Crâniopuntura <Icon name="solar:alt-arrow-left-bold" /></h4>
       
         <h5  class="detail">
-          Descubra os benefícios transformadores da acupuntura!
+          Surpreenda-se com a crâniopuntura em casos crônicos!
         </h5>
         <h5>  
-          Uma prática terapêutica milenar que se originou na medicina tradicional 
-          chinesa. A técnica aborda a inserção de agulhas 
-          finas em pontos específicos do corpo, promovendo um equilíbrio 
-          energético e capacitando a autorregulação do seu organismo. 
+          A crâniopuntura concentra-se na estimulação de pontos específicos no couro 
+          cabeludo para promover o equilíbrio energético e a autorregulação do seu 
+          organismo.
           </h5>
           <h5>
-          Amplamente estudada e aplicada em todo o mundo, a acupuntura 
-          oferece uma gama variada de vantagens para aqueles que a exploram.
+          Pouco conhecida pelas pessoas, vêm se destacando por resultados contra 
+          enxaquecas e dores crônicas.
            </h5>
       </div>
     </div>
@@ -141,23 +138,25 @@
               <Icon name="ph:calendar-plus-fill"/> Agendar
             </div>
           </a>
-    <div class='hr'></div>
+    <div class='hr' id="formulas"></div>
     <div class='main-seven formulas'>
       <div >
-        <h4 id="formulas"><Icon name="solar:alt-arrow-right-bold" /> Fórmulas Magistrais Chinesas</h4>
+        <h4 ><Icon name="solar:alt-arrow-right-bold" /> Fórmulas Magistrais Chinesas</h4>
       
         <h5  class="detail">
-          Descubra os benefícios transformadores da acupuntura!
+          Conheça os mágicos comprimidos chineses!
         </h5>
         <h5>  
-          Uma prática terapêutica milenar que se originou na medicina tradicional 
-          chinesa. A técnica aborda a inserção de agulhas 
-          finas em pontos específicos do corpo, promovendo um equilíbrio 
-          energético e capacitando a autorregulação do seu organismo. 
+          As fórmulas magistrais chinesas representam uma tradição medicinal milenar, 
+          enraizada na sabedoria da medicina tradicional chinesa. 
+          Elas são feitas sob medida para atender às necessidades únicas do seu 
+          corpo e equilibrar sua energia vital, promovendo a saúde e o 
+          bem-estar de forma personalizada.
           </h5>
           <h5>
-          Amplamente estudada e aplicada em todo o mundo, a acupuntura 
-          oferece uma gama variada de vantagens para aqueles que a exploram.
+          Essas fórmulas, amplamente estudadas e respeitadas, oferecem uma abordagem 
+          holística para tratamento de uma variedade de condições, abrangendo desde 
+          questões físicas até desequilíbrios emocionais.
            </h5>
       </div>
     </div>
@@ -1006,7 +1005,7 @@ code {
   padding: 4px 0 1px 0;
   font-size: 14px;
   color: #ddd;
-  border: solid .5px ;
+  border: solid .5px #d8d8d840;
   border-radius: 7px;
   transition: all .3s linear;
     background-color: #d8d8d840;
@@ -1030,7 +1029,7 @@ code {
   padding: 5px;
   font-size: 14px;
   color: #fff;
-  border: solid .5px #4fe7088c;
+  border: solid .5px #4fe70844;
   border-radius: 7px;
   transition: all .3s linear;
     background-color: #4fe70871;
@@ -1043,7 +1042,7 @@ code {
 
 .buttonAction:hover {
   color: #fff;
-  border: solid .5px #fff;
+  border: solid .5px #4fe708;
   text-shadow: -1px 1px 10px #fff;
   background-color: #4fe708b6;
 }
@@ -1084,8 +1083,10 @@ code {
 }
 .detail {
   text-align: center;
-  color: #a9f596;
-  text-transform: ;
+  /* color: #a9f596; */
+  color: #fff;
+  font-size: .9em;
+text-decoration: underline #fff ;
 }
 
 .acupuntura {
@@ -1292,7 +1293,7 @@ transition: all .3s ease-in;
   text-transform: uppercase;
   font-weight: bold;
   border-radius: 7px;
-  border: solid .5px;
+  border: solid .5px #d8d8d840;
 }
 
 .dot-index:Hover {
