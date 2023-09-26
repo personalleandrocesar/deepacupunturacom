@@ -5,7 +5,7 @@
     <div class='main-four'>
       
         <h5>
-          Clique em uma das terapias abaixo! 👇
+          Clique em uma das terapias abaixo!<icon name="material-symbols:fitbit-arrow-downward-sharp" />
         </h5>
       
     </div>
