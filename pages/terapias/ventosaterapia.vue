@@ -3,27 +3,24 @@
 
 
 
-    <div class='main-tree acupuntura' id="acupuntura">
-      <div>
-        <h4>
-          <Icon name="solar:alt-arrow-right-bold" /> Acupuntura
-        </h4>
-
-        <h5 class="detail">
-          Descubra os benefícios transformadores da acupuntura!
-        </h5>
-        <h5>
-          Uma prática terapêutica milenar que se originou na medicina tradicional
-          chinesa. A técnica aborda a inserção de agulhas
-          finas em pontos específicos do corpo, promovendo um equilíbrio
-          energético e capacitando a autorregulação do seu organismo.
-        </h5>
-        <h5>
-          Amplamente estudada e aplicada em todo o mundo, a acupuntura
-          oferece uma gama variada de vantagens para aqueles que a exploram.
-        </h5>
+    <div class='main-five ventosaterapia' id="ventosaterapia">
+        <div>
+          <h4><Icon name="solar:alt-arrow-right-bold" /> Ventosaterapia</h4>
+      
+          <h5  class="detail">
+            Sinta o poder e os benefícios da ventosaterapia!
+          </h5>
+          <h5>  
+            Tendo raízes em várias culturas antigas, a ventosaterapia envolve a aplicação 
+            de copos de sucção na pele para estimular o fluxo sanguíneo e energético, 
+            promovendo o equilíbrio do corpo. 
+            </h5>
+            <h5>
+            Amplamente estudada e praticada em todo o mundo, a ventosaterapia 
+            oferece uma ampla gama de vantagens para aqueles que a exploram.
+             </h5>
+        </div>
       </div>
-    </div>
     <a class="buttonAction" href="https://calendar.app.google/ymqxNr4rSBaRT7m59">
       <div>
         <Icon name="ph:calendar-plus-fill" /> Agendar

@@ -3,9 +3,9 @@
 
 
 
-      <div class='main-four auriculoterapia'>
+      <div class='main-four auriculoterapia' id="auriculoterapia">
         <div>
-          <h4 >Auriculoterapia <Icon name="solar:alt-arrow-left-bold" /></h4>
+          <h4 ><Icon name="solar:alt-arrow-right-bold" />Auriculoterapia </h4>
       
           <h5 class="detail">
             Explore os incríveis benefícios da auriculoterapia!
@@ -979,7 +979,7 @@ code {
   font-size: .9em;
   color: #efc289;
   opacity: 1;
-  text-align: right;
+  text-align: left;
 }
 
 .auriculoterapia {

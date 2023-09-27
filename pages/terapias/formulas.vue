@@ -3,27 +3,27 @@
 
 
 
-    <div class='main-tree acupuntura' id="acupuntura">
-      <div>
-        <h4>
-          <Icon name="solar:alt-arrow-right-bold" /> Acupuntura
-        </h4>
-
-        <h5 class="detail">
-          Descubra os benefícios transformadores da acupuntura!
-        </h5>
-        <h5>
-          Uma prática terapêutica milenar que se originou na medicina tradicional
-          chinesa. A técnica aborda a inserção de agulhas
-          finas em pontos específicos do corpo, promovendo um equilíbrio
-          energético e capacitando a autorregulação do seu organismo.
-        </h5>
-        <h5>
-          Amplamente estudada e aplicada em todo o mundo, a acupuntura
-          oferece uma gama variada de vantagens para aqueles que a exploram.
-        </h5>
+   <div class='main-seven formulas' id="formulas">
+        <div >
+          <h4 ><Icon name="solar:alt-arrow-right-bold" /> Fórmulas Magistrais Chinesas</h4>
+      
+          <h5  class="detail">
+            Conheça os mágicos comprimidos chineses!
+          </h5>
+          <h5>  
+            As fórmulas magistrais chinesas representam uma tradição medicinal milenar, 
+            enraizada na sabedoria da medicina tradicional chinesa. 
+            Elas são feitas sob medida para atender às necessidades únicas do seu 
+            corpo e equilibrar sua energia vital, promovendo a saúde e o 
+            bem-estar de forma personalizada.
+            </h5>
+            <h5>
+            Essas fórmulas, amplamente estudadas e respeitadas, oferecem uma abordagem 
+            holística para tratamento de uma variedade de condições, abrangendo desde 
+            questões físicas até desequilíbrios emocionais.
+             </h5>
+        </div>
       </div>
-    </div>
     <a class="buttonAction" href="https://calendar.app.google/ymqxNr4rSBaRT7m59">
       <div>
         <Icon name="ph:calendar-plus-fill" /> Agendar

@@ -5,7 +5,7 @@
 
         <div class='main-tree'>
             <div>
-                <h5><i class="fa-solid fa-map-location"></i> Localização</h5>
+                <h5><Icon name="mdi:map-marker-radius" /> Localização</h5>
             </div>
         </div>
 
@@ -18,7 +18,7 @@
             </div>
             <iframe class='body-map'
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.5096784506004!2d-43.12292232898354!3d-22.89456440314661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9983b5d0974f89%3A0xd5dcb4494da04cac!2sDeep%20Acupuntura!5e0!3m2!1spt-BR!2sbr!4v1647055905172!5m2!1spt-BR!2sbr"
-                margin="auto;" allowfullscreen="" loading="lazy"></iframe>
+                style='border: solid 2px #d8d8d840;' margin="auto;" allowfullscreen="" loading="lazy"></iframe>
 
         </div>
         <!--
@@ -933,7 +933,7 @@ code {
     justify-content: flex-start;
     flex-direction: column;
     margin: 0px 0 0 0;
-    color: #fff;
+    color: #efc289;
     background: #860d0d;
     overflow-x: auto;
 }
@@ -1039,7 +1039,7 @@ iframe {
     height: 270px;
     margin: 10px auto 30px auto;
     border-radius: 7px;
-    border: solid .5px #fff;
+    
 }
 
 .main-five {

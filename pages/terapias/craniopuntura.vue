@@ -3,27 +3,24 @@
 
 
 
-    <div class='main-tree acupuntura' id="acupuntura">
-      <div>
-        <h4>
-          <Icon name="solar:alt-arrow-right-bold" /> Acupuntura
-        </h4>
-
-        <h5 class="detail">
-          Descubra os benefícios transformadores da acupuntura!
-        </h5>
-        <h5>
-          Uma prática terapêutica milenar que se originou na medicina tradicional
-          chinesa. A técnica aborda a inserção de agulhas
-          finas em pontos específicos do corpo, promovendo um equilíbrio
-          energético e capacitando a autorregulação do seu organismo.
-        </h5>
-        <h5>
-          Amplamente estudada e aplicada em todo o mundo, a acupuntura
-          oferece uma gama variada de vantagens para aqueles que a exploram.
-        </h5>
+    <div class='main-six craniopuntura' id="craniopuntura">
+        <div>
+          <h4 >Crâniopuntura <Icon name="solar:alt-arrow-right-bold" /></h4>
+      
+          <h5  class="detail">
+            Surpreenda-se com a crâniopuntura em casos crônicos!
+          </h5>
+          <h5>  
+            A crâniopuntura concentra-se na estimulação de pontos específicos no couro 
+            cabeludo para promover o equilíbrio energético e a autorregulação do seu 
+            organismo.
+            </h5>
+            <h5>
+            Pouco conhecida pelas pessoas, vêm se destacando por resultados contra 
+            enxaquecas e dores crônicas.
+             </h5>
+        </div>
       </div>
-    </div>
     <a class="buttonAction" href="https://calendar.app.google/ymqxNr4rSBaRT7m59">
       <div>
         <Icon name="ph:calendar-plus-fill" /> Agendar
@@ -1052,14 +1049,14 @@ code {
   font-size: .9em;
   color: #efc289;
   opacity: 1;
-  text-align: right;
+  text-align: left;
 }
 
 .craniopuntura {
   background-image: linear-gradient(#860d0d, #860d0d80, #860d0d), url(@/assets/img/cranio.jpg);
   background-size: 100% auto;
   background-repeat: no-repeat;
-  text-align: right;
+  text-align: left;
 }
 
 .main-seven {

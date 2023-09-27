@@ -33,19 +33,7 @@
 
 
             <div class='main-six-card'>
-            <!--
-                <a href='/blog/anatomia/tipos-de-fibras-musculares'>
-                    <img src="/img/tipos-de-fibras-musculares.jpg" alt="A importânica do IMC">
-                    <h3>
-                        Tipos de Fibras Musculares
-                    </h3>
-                    <p class="article-date">
-                        <Icon name='mdi:account-edit-outline' size="17" /> Personal Leandro Cesar
-                        <br>
-                        <Icon name='mingcute:hashtag-fill' size="17" /> Lesões | Joelho | Exercícios
-                    </p>
-                </a>
-                -->
+            
                 <a href='/blog/lesoes/exercicios-lesoes-joelho'>
                     <img src="/img/exercicios-lesao-joelho.jpg" alt="A importânica do IMC">
                     <h3>
@@ -55,18 +43,6 @@
                         <Icon name='mdi:calendar-clock' size="17" /> 19/07/2023 - 15:30
                         <br>
                         <Icon name='mingcute:hashtag-fill' size="17" /> Lesões | Joelho | Exercícios
-                    </p>
-                </a>
-
-                <a href='/blog/saude/a-importancia-do-imc'>
-                    <img src="/img/importancia-imc.jpg" alt="A importânica do IMC">
-                    <h3>
-                        A importância do IMC
-                    </h3>
-                    <p class="article-date">
-                        <Icon name='mdi:calendar-clock' size="17" /> 15/07/2023 - 15:00
-                        <br>
-                        <Icon name='mingcute:hashtag-fill' size="17" /> Saude | IMC | Profilaxia
                     </p>
                 </a>
             </div>
@@ -82,7 +58,6 @@
         </div>
     </main>
 </template>
-
 <style scoped>
 iframe {
     margin-left: 10px;
@@ -105,8 +80,6 @@ code {
     border-left: solid 5px #eee;
     color: #888;
 }
-
-
 
 .divider {
     height: 15px;
@@ -352,7 +325,6 @@ i:nth-child(15) {
         color: #555;
         overflow-x: auto;
     }
-
 }
 
 .main-six i {
@@ -370,21 +342,12 @@ i:nth-child(15) {
 
 .main-six-card {
     display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
 }
 
-.main-six-card {
+.main-six-card .article-date {
     font-size: 13px;
-    color: #fff;
-    margin-top: -12px;
-}
-
-.article-date {
-  position: fixed;
-  bottom: 0px;
-    font-size: 9px;
     color: #fff;
     margin-top: -12px;
 }
@@ -392,11 +355,10 @@ i:nth-child(15) {
 .main-six-card a {
     border: solid 1px #fadb4170;
     box-shadow: 0 0px 5px #fadb4170;
-    margin: 5px;
+    margin: 0px 5px 20px 10px;
     border-radius: 3% 3% 3% 3%;
     transform: translateY(1em);
     transition: all .4s linear;
-    width: 47%;
 }
 
 .main-six-card a:hover {
@@ -407,14 +369,13 @@ i:nth-child(15) {
 
 .main-six-card a:hover img {
     opacity: 1;
-
 }
 
 img {
-    height: 100px;
+    border-radius: 3%;
+    height: 150px;
     opacity: .6;
     width: 100%;
-    border-radius: 3%;
     transition: all .4s linear;
 }
 
@@ -425,8 +386,7 @@ img {
 }
 
 .main-six-card h3 {
-    margin: 0px 7px 50px 7px;
-    line-height: 1;
+    margin: 15px 7px;
     color: var(--color-text);
 }
 
@@ -463,7 +423,6 @@ img {
     justify-content: center;
     flex-direction: column;
     margin: auto;
-
 }
 
 .main-seven-card a {
@@ -511,5 +470,4 @@ a.NuxtLink-exact-active {
 
 .main-five a.router-link-exact-active {
     color: #fadb41;
-}
-</style>
+}</style>
