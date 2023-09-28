@@ -10,7 +10,9 @@ function openMenu() {
   <div class='nav-two'>
     <div>
 
-      <div></div>
+      <div>
+  <a @click="$router.go(-1)"><Icon name="tabler:arrow-big-left-lines-filled"/></a>
+      </div>
       <div>
         <NuxtLink @click="openMenu">
           <Icon name="fa6-solid:bars-staggered" />

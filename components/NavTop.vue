@@ -20,14 +20,22 @@ function openMenu() {
     </div>
 
     <div v-if="menu" class="menuMain">
-      <div>
-        
-        <nuxt-link @click="openMenu" class="button">
-          
-          <Icon name='material-symbols:cancel-rounded'/>
-        
-        </nuxt-link>
+      <div class="nav-two">
+
+        <div></div>  
+        <div> 
+          <nuxt-link @click="openMenu" class="button">
+            
+            <Icon name='material-symbols:cancel-rounded'/>
+            
+          </nuxt-link>
+        </div>
       </div>
+    
+      <div>
+
+      </div>
+
     </div>
   </div>
 </template>
@@ -60,6 +68,10 @@ function openMenu() {
   display: flex;
   justify-content: flex-end;
 }
+.nav-two div {
+  display: flex;
+  justify-content: flex-end;
+}
 
 .menuMain {
   bottom: 0px; 
@@ -70,5 +82,11 @@ function openMenu() {
   bottom: 0px; 
   width: 100%;
   background-color: #860d0d;
+}
+
+.menuMain i {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
 }
 </style>

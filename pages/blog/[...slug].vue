@@ -1,6 +1,6 @@
 <template>
     <main>
-      <NavTree/>
+      <NavTopTree/>
       <ContentDoc/>
     </main>
     
@@ -12,19 +12,20 @@
 </template>
 
 <style scoped>
-.content-main{ 
- margin: 10px;
+.content-main {
+  margin: 10px;
 }
 
 
 h1 {
   margin-left: 0px;
 }
+
 iframe {
   margin-left: 10px;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -39,27 +40,27 @@ code {
   margin-left: 15px;
   padding-left: 10px;
   border-left: solid 5px #eee;
-  color:#888;
+  color: #888;
 }
 
 .divider {
-  height:15px;
+  height: 15px;
   background-color: #dddddd54;
 }
 
-.nav-one{
+.nav-one {
   height: 35px;
   position: sticky;
   top: -1px;
 }
 
-.nav-one div{
+.nav-one div {
   display: flex;
   justify-content: flex-end;
   flex-direction: row;
 }
 
-.nav-one a{
+.nav-one a {
   text-decoration: none;
   margin: 0 14px 0 6px;
   font-size: 1.2em;
@@ -76,8 +77,8 @@ code {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-  padding:10px 0 5px 0;
-  color:black;
+  padding: 10px 0 5px 0;
+  color: black;
 }
 
 .profile a {
@@ -105,7 +106,7 @@ code {
   color: #aaa;
 }
 
-.main-one{
+.main-one {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -117,17 +118,18 @@ code {
   margin: 0 0 0 15px;
 }
 
-.main-one a:nth-child(1) i, .main-one a:nth-child(2) i{
+.main-one a:nth-child(1) i,
+.main-one a:nth-child(2) i {
   padding-right: 4px;
   margin: 0 0 0 3px;
 }
 
-.main-one a:nth-child(3) i{
+.main-one a:nth-child(3) i {
   padding-right: 2px;
   margin: 0 0 0 2px;
 }
 
-.main-one a{
+.main-one a {
   margin: 0 0 0 10px;
   color: #555;
 }
@@ -138,7 +140,7 @@ code {
   flex-direction: column;
   padding: 15px 0 15px 0;
   color: black;
-  box-shadow:  4px 4px 10px #bbb;
+  box-shadow: 4px 4px 10px #bbb;
 }
 
 .main-tree {
@@ -147,7 +149,7 @@ code {
   flex-direction: column;
   margin: -20px 0 0 0;
   color: var(--color-text);
-  overflow-x:auto;
+  overflow-x: auto;
 }
 
 .main-tree i {
@@ -155,7 +157,7 @@ code {
   color: #555;
 }
 
-.main-tree h5{
+.main-tree h5 {
   margin-left: 10px;
 }
 
@@ -165,7 +167,7 @@ code {
   flex-direction: column;
   margin: -10px 0 0 0;
   color: #555;
-  overflow-x:auto;
+  overflow-x: auto;
 }
 
 .main-four i {
@@ -173,7 +175,7 @@ code {
   color: #555;
 }
 
-.main-four h5{
+.main-four h5 {
   margin-left: 10px;
 }
 
@@ -184,7 +186,9 @@ code {
   flex-direction: row;
 }
 
-.main-four-card i:nth-child(9), i:nth-child(11), i:nth-child(15){
+.main-four-card i:nth-child(9),
+i:nth-child(11),
+i:nth-child(15) {
   color: #aaa;
 }
 
@@ -194,6 +198,7 @@ code {
   width: 500px;
   border-radius: 3% 3% 3% 3%;
 }
+
 .main-four-card span {
   position: relative;
   top: -6px;
@@ -215,7 +220,7 @@ code {
   flex-direction: column;
   margin: -10px 0 0 0;
   color: #555;
-  overflow-x:auto;
+  overflow-x: auto;
 }
 
 .main-five i {
@@ -223,11 +228,11 @@ code {
   color: #555;
 }
 
-.main-five h5{
+.main-five h5 {
   margin-left: 10px;
 }
 
-.main-five h4{
+.main-five h4 {
   margin-left: 10px;
 }
 
@@ -247,6 +252,7 @@ code {
 .main-five-card a:hover {
   color: #fadb41;
 }
+
 .main-five-card span {
   position: relative;
   top: -6px;
@@ -268,7 +274,7 @@ code {
   flex-direction: column;
   margin: -10px 0 0 0;
   color: #555;
-  overflow-x:auto;
+  overflow-x: auto;
 }
 
 @media only screen and (min-width: 610px) {
@@ -278,9 +284,9 @@ code {
     flex-direction: column;
     margin: -10px 0 0 0;
     color: #555;
-  overflow-x:auto;
-}
-  
+    overflow-x: auto;
+  }
+
 }
 
 .main-six i {
@@ -288,11 +294,11 @@ code {
   color: var(--color-text);
 }
 
-.main-six h5{
+.main-six h5 {
   margin-left: 10px;
 }
 
-.main-six h5{
+.main-six h5 {
   margin: 10px;
 }
 
@@ -312,22 +318,24 @@ code {
 }
 
 .main-six-card a:hover {
-  transform: translateY(0.8em) ;
+  transform: translateY(0.8em);
   box-shadow: 0 5px 5px #fadb4180;
   background-color: #fadb4120;
 }
-.main-six-card a:hover img{
+
+.main-six-card a:hover img {
   opacity: 1;
-  
+
 }
 
-img{
+img {
   border-radius: 3%;
   height: 150px;
   opacity: .6;
   width: 100%;
   transition: all .4s linear;
 }
+
 .main-six-card span {
   position: relative;
   top: -6px;
@@ -338,6 +346,7 @@ img{
   margin: 15px 7px;
   color: var(--color-text);
 }
+
 .main-six-card h4 {
   margin: 15px 7px;
   color: var(--color-text);
@@ -354,7 +363,7 @@ img{
   flex-direction: column;
   margin: -10px 0 0 0;
   color: #555;
-  overflow-x:auto;
+  overflow-x: auto;
 }
 
 .main-seven i {
@@ -362,25 +371,26 @@ img{
   color: var(--color-text);
 }
 
-.main-seven h5{
+.main-seven h5 {
   margin-left: 10px;
 }
 
 .main-seven-card {
   display: flex;
   justify-content: center;
-  flex-direction: column;   
-  margin:auto;
+  flex-direction: column;
+  margin: auto;
 
 }
 
 .main-seven-card a {
   display: flex;
   justify-content: center;
-  flex-direction: column;   
-  margin:10px auto 20px auto  ;
-  width:60%;
+  flex-direction: column;
+  margin: 10px auto 20px auto;
+  width: 60%;
 }
+
 .main-seven-card span {
   position: relative;
   top: -6px;
@@ -398,25 +408,24 @@ img{
 
 .mini-profile {
   height: 25px;
-border-radius: 50%;
-margin: 10px 0 0 10px;
-padding: 0 15px 0 0;
+  border-radius: 50%;
+  margin: 10px 0 0 10px;
+  padding: 0 15px 0 0;
 }
 
 a.NuxtLink-exact-active {
-  color:#fadb41;
+  color: #fadb41;
   font-weight: bold;
 }
 
 .dateYear {
-    color: #ccc;
+  color: #ccc;
 }
 
 .dateYearHover {
-    color: #000;
+  color: #000;
 }
 
 .main-five a.router-link-exact-active {
   color: #000;
-}
-</style>
+}</style>

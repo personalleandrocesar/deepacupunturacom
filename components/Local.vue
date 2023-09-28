@@ -17,9 +17,25 @@
                 </p>
             </div>
             <iframe class='body-map'
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.5096784506004!2d-43.12292232898354!3d-22.89456440314661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9983b5d0974f89%3A0xd5dcb4494da04cac!2sDeep%20Acupuntura!5e0!3m2!1spt-BR!2sbr!4v1647055905172!5m2!1spt-BR!2sbr"
-                style='border: solid 2px #d8d8d840;' margin="auto;" allowfullscreen="" loading="lazy"></iframe>
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.5096784506004!2d-43.12292232898354!3d-22.89456440314661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9983b5d0974f89%3A0xd5dcb4494da04cac!2sDeep%20Acupuntura!5e0!3m2!1spt-BR!2sbr!4v1647055905172!5m2!1spt-BR!2sbr"
+            style='border: solid 2px #d8d8d840;' margin="auto;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class='main-tree'>
+            <div>
+                <h5><Icon name="ic:baseline-access-time-filled" /> Horário de funcionamento</h5>
+            </div>
+        </div>
 
+
+        <div class='main-four'>
+            <div class='main-four-card'>
+                <p>
+                    Segunda à sexta: 07:00 às 21:00
+                    <br>
+                    Sábado: 07:00 às 13:00
+                </p>
+            </div>
+           
         </div>
         <!--
      <div class='hr'></div>
@@ -906,6 +922,10 @@ code {
     text-shadow: -1px 1px 10px #fff;
 }
 
+.main-one h5 {
+    margin: 10px 0px 22px 10px;
+}
+
 .main-two {
     display: flex;
     justify-content: space-around;
@@ -944,7 +964,7 @@ code {
 }
 
 .main-tree h5 {
-    margin-left: 10px;
+    margin: 10px 0px 22px 10px;
 }
 
 .hCincoOne {
