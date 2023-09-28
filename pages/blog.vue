@@ -4,7 +4,7 @@
 
     <NavTopTwo />
     <div class='anima'>
-      <Blog />
+      
     </div>
     <NavBottomTwo />
 </template>
