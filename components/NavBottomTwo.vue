@@ -63,7 +63,7 @@ i {
   align-self: center;
   line-height: 0;
   border-radius: 10% 10% 0% 0%;
-  box-shadow: 0px .5px 5px #e23a2890;
+  box-shadow: 0px .5px 5px #ff190090;
 }
 
 .nav-bottom div {

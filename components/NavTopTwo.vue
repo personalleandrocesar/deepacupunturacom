@@ -40,6 +40,7 @@ function openMenu() {
   background: #860d0d;
   border-radius: 0% 0% 10% 10%;
   z-index: 10;
+   box-shadow: 0px .5px 5px #ff190020;
 }
 
 .nav-two div {
@@ -53,6 +54,7 @@ function openMenu() {
   cursor: pointer;
   margin: 0 14px 0 6px;
   font-size: 1.2em;
+  color: #ff1900;
 }
 
 .nav-two i {

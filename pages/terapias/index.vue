@@ -643,7 +643,7 @@ code {
 
 .main-five-card:hover {
   color: #efc289;
-    border: solid 0.5px #e23a28;
+    border: solid 0.5px #ff1900;
     text-shadow: -1px 1px 10px #efc289;
 }
 

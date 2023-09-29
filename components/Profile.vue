@@ -938,7 +938,7 @@ code {
 
 .divider {
     height: 15px;
-    background-color: #e23a2840;
+    background-color: #ff190040;
 }
 
 .divider-ultimate {
@@ -1183,7 +1183,7 @@ code {
 .main-five-card {
     height: 370px;
     margin: 0 10px;
-    border: solid .5px #e23a2890;
+    border: solid .5px #ff190090;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -1219,7 +1219,7 @@ code {
 }
 
 a.nuxt-link-exact-active {
-    background-color: #e23a2890;
+    background-color: #ff190090;
     color: #fff;
     border-radius: 0% 10% 10% 10%;
 }
@@ -1331,7 +1331,7 @@ a.nuxt-link-exact-active {
 
 .hr {
     width: 95%;
-    border: solid .3px #e23a2840;
+    border: solid .3px #ff190040;
     margin: 30px auto 0px auto;
 }
 

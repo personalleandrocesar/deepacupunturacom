@@ -20,7 +20,7 @@ function openMenu() {
     </div>
 
     <div v-if="menu" class="menuMain">
-      <div class="nav-two">
+      <div>
 
         <div></div>  
         <div> 
@@ -60,6 +60,7 @@ function openMenu() {
   cursor: pointer;
   margin: 0 14px 0 6px;
   font-size: 1.2em;
+  color: #ff1900;
 }
 
 .nav-two i {

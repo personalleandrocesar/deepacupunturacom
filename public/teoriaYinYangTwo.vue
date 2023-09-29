@@ -282,7 +282,7 @@ export default {
 }
 
 .postTitleHover {
-  color: #e23a28;
+  color: #ff1900;
 }
 
 .years a {

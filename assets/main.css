@@ -12,7 +12,7 @@ body {
 }
 
 .code {
-  border-left: 6px solid #e23a28;
+  border-left: 6px solid #ff1900;
   margin: 0 0 0 0px;
 }
 
@@ -84,7 +84,7 @@ th {
 }
 
 th {
-  background-color: #e23a2820;
+  background-color: #ff190020;
 }
 
 td {
@@ -103,7 +103,7 @@ caption {
 a,
 .green {
   text-decoration: none;
-  color: #e23a28;
+  color: #ff1900;
   transition: 0.4s;
 }
 

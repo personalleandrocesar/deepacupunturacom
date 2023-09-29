@@ -61,7 +61,7 @@ code {
     padding-left: 10px;
     margin-left: 15px;
     margin-right: 60px;
-    border-left: solid 5px #e23a28;
+    border-left: solid 5px #ff1900;
     color: #ddd;
 }
 
@@ -150,7 +150,7 @@ code {
 
 .main-two-card a:hover {
     color: #efc289;
-    border: solid 0.5px #e23a28;
+    border: solid 0.5px #ff1900;
     text-shadow: -1px 1px 10px #efc289;
 }
 
@@ -183,7 +183,7 @@ code {
   padding: 0 0 15px 0;
   color: #fff;
   background-color: #860d0d;
-  box-shadow: 0px 10px 5px #e23a28;
+  box-shadow: 0px 10px 5px #ff1900;
   overflow-x: auto;
   display: flex;
   justify-content: flex-start;
@@ -310,7 +310,7 @@ code {
 
 .main-five-card:hover {
   color: #efc289;
-    border: solid 0.5px #e23a28;
+    border: solid 0.5px #ff1900;
     text-shadow: -1px 1px 10px #efc289;
 }
 

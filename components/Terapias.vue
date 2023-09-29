@@ -44,7 +44,7 @@ code {
     padding-left: 10px;
     margin-left: 15px;
     margin-right: 60px;
-    border-left: solid 5px #e23a28;
+    border-left: solid 5px #ff1900;
     color: #ddd;
 }
 
@@ -89,7 +89,7 @@ code {
     margin: 0 0 0 -10px;
     font-size: .9em;
     font-weight: 100;
-    color: #e23a28;
+    color: #ff1900;
 }
 
 .main-one {
@@ -223,7 +223,7 @@ code {
 
 .main-four-card a:hover {
         color: #efc289;
-    border: solid 0.5px #e23a28;
+    border: solid 0.5px #ff1900;
     text-shadow: -1px 1px 10px #efc289;
 }
 
@@ -270,7 +270,7 @@ code {
 .main-five-card {
     height: 370px;
     margin: 0 10px;
-    border: solid .5px #e23a28;
+    border: solid .5px #ff1900;
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
@@ -308,7 +308,7 @@ code {
 
 
 a.router-link-exact-active {
-    background-color: #e23a2860;
+    background-color: #ff190060;
     color: #efc289;
     border-radius: 7px;
     text-shadow: -1px 1px 10px #efc289;

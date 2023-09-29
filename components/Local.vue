@@ -817,14 +817,14 @@ code {
     margin-left: 30px;
     margin-top: -10px;
     margin-right: 30px;
-    border-left: solid 4px #e23a28;
-    border-right: solid 4px #e23a28;
+    border-left: solid 4px #ff1900;
+    border-right: solid 4px #ff1900;
     color: #ddd;
 }
 
 .divider {
     height: 15px;
-    background-color: #e23a2840;
+    background-color: #ff190040;
 }
 
 .divider-ultimate {
@@ -867,10 +867,10 @@ code {
 .profile h1:hover {
     color: #fff;
     cursor: pointer;
-    text-shadow: -2px 2px 5px #e23a28,
-        -2px -2px 5px #e23a28,
-        2px 2px 5px #e23a28,
-        2px -2px 5px #e23a28;
+    text-shadow: -2px 2px 5px #ff1900,
+        -2px -2px 5px #ff1900,
+        2px 2px 5px #ff1900,
+        2px -2px 5px #ff1900;
 }
 
 .profile h4 {
@@ -879,9 +879,9 @@ code {
     font-size: .9em;
     font-weight: bold;
     line-height: 1;
-    color: #e23a28;
-    border-left: solid 4px #e23a28;
-    border-right: solid 4px #e23a28;
+    color: #ff1900;
+    border-left: solid 4px #ff1900;
+    border-right: solid 4px #ff1900;
 }
 
 .main-one {
@@ -918,7 +918,7 @@ code {
 
 .main-one a:hover {
     color: #fff;
-    border: solid .5px #e23a28;
+    border: solid .5px #ff1900;
     text-shadow: -1px 1px 10px #fff;
 }
 
@@ -999,7 +999,7 @@ code {
 
 #main-white .clientesGraph {
     margin: 10px;
-    background-color: #e23a28;
+    background-color: #ff1900;
 }
 
 .main-four {
@@ -1085,7 +1085,7 @@ iframe {
 .main-five-card {
     height: 370px;
     margin: 0 10px;
-    border: solid .5px #e23a2890;
+    border: solid .5px #ff190090;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -1121,7 +1121,7 @@ iframe {
 }
 
 a.nuxt-link-exact-active {
-    background-color: #e23a2890;
+    background-color: #ff190090;
     color: #fff;
     border-radius: 0% 10% 10% 10%;
 }
@@ -1152,7 +1152,7 @@ a.nuxt-link-exact-active {
 
 .dot-index:Hover {
     color: #fff;
-    border: solid .5px #e23a28;
+    border: solid .5px #ff1900;
 }
 
 .dot-index {
@@ -1164,7 +1164,7 @@ a.nuxt-link-exact-active {
 .dotHover {
     background-color: #d8d8d840;
     color: #ddd;
-    border: solid .5px #e23a28;
+    border: solid .5px #ff1900;
 }
 
 .dot:hover {
@@ -1177,16 +1177,16 @@ a.nuxt-link-exact-active {
 }
 
 .selectTitle {
-    text-shadow: -2px 2px 5px #e23a28,
-        -2px -2px 5px #e23a28,
-        2px 2px 5px #e23a28,
-        2px -2px 5px #e23a28;
+    text-shadow: -2px 2px 5px #ff1900,
+        -2px -2px 5px #ff1900,
+        2px 2px 5px #ff1900,
+        2px -2px 5px #ff1900;
     color: #fff;
 }
 
 .selectTitleHover {
     color: #fff;
-    border: solid .5px #e23a28;
+    border: solid .5px #ff1900;
     opacity: 1s;
 }
 
@@ -1233,7 +1233,7 @@ a.nuxt-link-exact-active {
 
 .hr {
     width: 95%;
-    border: solid .3px #e23a2840;
+    border: solid .3px #ff190040;
     margin: 30px auto 0px auto;
 }
 

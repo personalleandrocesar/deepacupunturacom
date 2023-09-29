@@ -207,7 +207,7 @@ p {
 }
 
 b {
-  color: #e23a28;
+  color: #ff1900;
 }
 
 h1 {
@@ -254,7 +254,7 @@ h5 {
 
 .postTitleHover {
   font-size: 1em;
-  color: #e23a28;
+  color: #ff1900;
 }
 
 .details a {
