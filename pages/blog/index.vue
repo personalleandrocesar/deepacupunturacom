@@ -316,13 +316,13 @@ code {
 
 .main-five p {
   padding: 0px;
-  margin:0px 0 5px 0px;
+  margin:0px 10px 5px 0px;
   font-size: .9em;
 }
 
 .main-five .mini-profile {
   height: 6em;
-  margin: 10px 5px 0 10px;
+  margin: 7px 5px 0 10px;
   padding: 0 5px 0 0;
 }
 

@@ -91,6 +91,10 @@ td {
   text-align: center;
 }
 
+img {
+  border-radius: 7px;
+
+}
 
 caption {
   padding: 10px;
