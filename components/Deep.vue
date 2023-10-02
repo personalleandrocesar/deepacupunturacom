@@ -1,6 +1,4 @@
 <template>
-  <div>
-  
 
     <div class='main-tree'>
       <div>
@@ -15,71 +13,13 @@
           Criado por Leandro Cesar Ramos da Costa, Deep Acupuntura é um clínica de medicina chinesa, para tratamento individualizado, que tem por objetivo tratar profundamente síndromes energéticas, através de sinais e sintomas de que o paciente relata e através de vários métodos de diagnósticos; podendo assim, traçar vários tipos de tratamentos, que só a medicina tradicional chinesa pode nos proporcionar, evitando a ingestão de medicamentos alopáticos, oferendo alternativas através de terapias totalmente seguras e naturais.
         </p>
       </div>
-      <br>
     </div>
 
     <div class='hr'></div>
     
 
 
-    <div class='main-tree'>
-      <div>
-        <h5><i class="fa-solid fa-people-group"></i> Profissionais
-        </h5>
-
-<div class='profile'>
-      <img src='../assets/img/myFotoTwo.jpg' alt='' class='mini-profile'>
-      <div>
-        <h1>Leandro Cesar Ramos da Costa</h1>
-        <h4> <i class="fa-solid fa-user-graduate"></i> Acupunturista</h4>
-      </div>
-    </div>
-
-<div class='main-one'>
-      <h4>
-        <i class="fa-solid fa-building"></i> Dono do Deep Acupuntura
-      </h4>
-      <a href="https://instagram.com/professorleandrocesar">
-        <i class="fa-brands fa-instagram-square"></i> Instagram
-      </a>
-      <a href="https://github.com/professorleandrocesar">
-        <i class="fa-brands fa-github"></i> GitHub
-      </a>
-    </div>
-      
-      </div>
-    </div>
-
-    <div class='main-five'>
-    <p>
-              <i class="fas fa-graduation-cap"></i> Graduação em Educação Física - UNIVERSIDADE SALGADO DE OLIVEIRA - UNIVERSO (2005 - 2008);
-              <br>
-              <i class="fas fa-id-card"></i> CREF: 029260-G/RJ;
-              <br>
-              <i class="fas fa-certificate"></i> Pós-Graduação Lato-Sensu (especialização) em Acupuntura - UNIVERSIDADE CELSO LISBOA - UCL (2018 - 2022);
-              <br>
-              <i class="fas fa-certificate graduando"></i> Pós-Graduando em Cinesiologia, Biomecânica e Treinamento Físico - UNIVERSIDADE CASTELO BRANCO - UCB (2021 - atual);
-              <br>
-              <i class="fas fa-certificate graduando"></i> Pós-Graduando em Lesões e Doenças Musculoesqueléticas: Exercício Físico e Reabilitação - UNIVERSIDADE CASTELO BRANCO - UCB (2021 - atual);
-            </p> 
-              <h5>Técnicas Ministradas:</h5>
-            <p>
-              <i class="fas fa-chevron-right"></i> Acupuntura
-              <br>
-              <i class="fas fa-chevron-right"></i> Craniopuntura
-              <br>
-              <i class="fas fa-chevron-right"></i> Ventosaterapia
-              <br>
-              <i class="fas fa-chevron-right"></i> Auriculoterapia 
-              <br>
-              <i class="fas fa-chevron-right"></i> Fórmulas magistrais
-
-            </p>       
-    <div class='main-tree'>
-      <p class="nav-in"><i class="fas fa-link"></i> <a href="http://lattes.cnpq.br/3830820363501969" target="_blank">Currículo Lattes - CNPQ <i class="fas fa-external-link-alt"></i></a></p>
-    </div>
-          </div>
-  <div class='hr'></div>
+  
           <div class='main-tree'>
       <div>
         <h5><i class="fa-solid fa-timeline"></i> Acontecimentos - linha do tempo</h5>
@@ -107,10 +47,7 @@
           <br>
 
           <br>
-          <br>
 
-
-  </div>
 </template>
 <script>
 export default {
@@ -742,7 +679,7 @@ code {
 .hr {
   width: 95%;
   border: solid .3px #ff190040;
-  margin: 30px auto 0px auto;
+  margin: 30px auto 30px auto;
 }
 
 a.nuxt-link-exact-active {

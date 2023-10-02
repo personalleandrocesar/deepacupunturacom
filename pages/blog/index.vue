@@ -11,17 +11,6 @@
                 </h5>
             </div>
         </div>
-        <!-- <div class='main-two'>
-            <div class='main-two-card'>
-                <RouterLink to="/terapias">Todas</RouterLink>
-                <RouterLink to="/terapias/acupuntura">Acupuntura</RouterLink>
-                <RouterLink to="/terapias/auriculoterapia">Auriculoterapia</RouterLink>
-                <RouterLink to="/terapias/ventosaterapia">Ventosaterapia</RouterLink>
-                <RouterLink to="/terapias/craniopuntura">Crâniopuntura</RouterLink>
-                <RouterLink to="/terapias/formulas">Fórmulas</RouterLink>
-            </div>
-        </div> -->
-
 
 
 
@@ -29,15 +18,12 @@
         <div class='main-five'>
 
           <NuxtLink to="/blog/o-que-e-acupuntura" class='main-five-card'>
-            <div>
-              <img src='~/assets/img/feedSeven.jpg' alt='' class='mini-profile'>
-            </div>
+            <img src='~/assets/img/feedSeven.jpg' alt=''>
             <div>
               <h4>O que é Acupuntura?</h4>
                 <p>Acupuntura consiste na aplicação de agulhas em pontos específicos do corpo, chamados de ‘pontos de acupuntura’ ou ‘acupontos’, ...</p>
             </div>
           </NuxtLink>
-
           <br>
           <br>
         </div>
@@ -261,9 +247,8 @@ code {
 }
 
 .main-five img {
-  height: 70px;
-  margin: 0 10px;
-  padding: 0 25px 0 0;
+  height: 80px;
+  margin: 10px 10px;
 }
 
 .main-five i {
@@ -292,15 +277,13 @@ code {
 }
 
 .main-five-card {
-  margin: 0px 10px;
-  padding: 0px 0 1px 0;
+  margin: 7px 10px 0 10px;
   font-size: 14px;
   color: #ddd;
   border: solid .5px #d8d8d840;
   border-radius: 7px;
   transition: all .3s linear;
-    background-color: #d8d8d820;
-
+  background-color: #d8d8d820;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -318,19 +301,6 @@ code {
   padding: 0px;
   margin:0px 10px 5px 0px;
   font-size: .9em;
-}
-
-.main-five .mini-profile {
-  height: 6em;
-  margin: 7px 5px 0 10px;
-  padding: 0 5px 0 0;
-}
-
-.mini-profile {
-  height: 80px;
-  width: 80px;
-  margin: 10px 0 0 0px;
-  padding: 0 15px 0 0;
 }
 
 .dateYear {
