@@ -78,14 +78,14 @@ function switchProfissionais() {
           </div>
         </div>
 
-        <NuxtLink to="profissionais" class="degrau">
+        <NuxtLink to="/profissionais" class="degrau">
           <div>
             Profissionais
 
           </div>
           <Icon name='material-symbols:keyboard-arrow-down-rounded' />
         </NuxtLink>
-        <NuxtLink to="deep" class="degrau">
+        <NuxtLink to="/deep" class="degrau">
           <div>
             Deep Acupuntura
 
@@ -96,11 +96,8 @@ function switchProfissionais() {
 
       </div>
       <div class="nav-four">
-        <div></div>
-        <div></div>
         <div>
-          2022-2023 - <NuxtLink to="/">deepacupuntura.com</NuxtLink>- CNPJ: 40.930.118/0001-33
-
+          2022-2023 - deepacupuntura.com - CNPJ: 40.930.118/0001-33
         </div>
       </div>
 
@@ -109,7 +106,7 @@ function switchProfissionais() {
 </template>
 <style scoped>
 .bar {
-  height: 35px;
+  height: 40px;
   position: sticky;
   top: 0px;
   background: #860d0d;
@@ -119,7 +116,7 @@ function switchProfissionais() {
 }
 
 .nav-one {
-  height: 35px;
+  height: 40px;
   position: sticky;
   top: 0px;
   background: #860d0d;
@@ -137,15 +134,16 @@ function switchProfissionais() {
   text-decoration: none;
   cursor: pointer;
   margin: 0 14px 0 6px;
-  font-size: 1.2em;
   color: #ff1900;
 }
 
-.nav-one i {
-  color: #dbd1d1;
+.nav-one .icon {
+  color: #ff1900;
   margin-top: 8px;
   justify-content: flex-end;
   display: flex;
+  zoom: 1.1;
+
 }
 
 .nav-one div {
@@ -166,7 +164,7 @@ function switchProfissionais() {
 }
 
 .nav-two {
-  height: 35px;
+  height: 40px;
   position: sticky;
   top: -1px;
   background: #860d0d;
@@ -184,15 +182,15 @@ function switchProfissionais() {
   text-decoration: none;
   cursor: pointer;
   margin: 0 14px 0 6px;
-  font-size: 1.2em;
   color: #ff1900;
 }
 
-.nav-two i {
-  color: #dbd1d1;
+.nav-two .icon {
+  color: #ff1900;
   margin-top: 8px;
-  display: flex;
   justify-content: flex-end;
+  display: flex;
+  zoom: 1.1;
 }
 
 .nav-two div {
@@ -206,6 +204,8 @@ function switchProfissionais() {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+    font-weight: 700;
+
 }
 
 .nav-tree a {
@@ -218,7 +218,17 @@ function switchProfissionais() {
   font-size: 1.2em;
   color: #efc289;
   text-transform: uppercase;
-  margin: 35px 0 0 0;
+  margin: 55px 0 0 0;
+}
+
+.nav-tree a:nth-child(1) {
+  margin-top: 130px;
+}
+.nav-tree a:nth-child(3), .nav-tree a:nth-child(4) {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: flex-start;
 }
 
 
@@ -275,17 +285,4 @@ a:nth-child(5) {
   font-size: .8em;
   color: #fff;
   text-align: center;
-}
-
-
-.nav-four a {
-  font-size: 1.1em;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  align-items: center;
-  text-decoration: none;
-  cursor: pointer;
-  margin: 0 3px;
 }</style>

@@ -79,14 +79,14 @@ function switchProfissionais() {
           </div>
         </div>
 
-        <NuxtLink to="profissionais" class="degrau">
+        <NuxtLink to="/profissionais" class="degrau">
           <div>
             Profissionais
 
           </div>
           <Icon name='material-symbols:keyboard-arrow-down-rounded' />
         </NuxtLink>
-        <NuxtLink to="deep" class="degrau">
+        <NuxtLink to="/deep" class="degrau">
           <div>
             Deep Acupuntura
 
@@ -97,12 +97,9 @@ function switchProfissionais() {
 
       </div>
       <div class="nav-four">
-        <div></div>
-        <div></div>
         <div>
-          2022-2023 - <NuxtLink to="/">deepacupuntura.com</NuxtLink>- CNPJ: 40.930.118/0001-33
-
-        </div>
+          2022-2023 - deepacupuntura.com - CNPJ: 40.930.118/0001-33
+       </div>
       </div>
 
     </div>
@@ -110,21 +107,21 @@ function switchProfissionais() {
 </template>
 <style scoped>
 .bar {
-  height: 35px;
+  height: 40px;
   position: sticky;
   top: 0px;
   background: #860d0d;
-  border-radius: 0% 0% 10% 10%;
+  border-radius: 0% 0% 10% 10%; 
   z-index: 10;
   box-shadow: 0px .5px 5px #ff190020;
 }
 
 .nav-one {
-  height: 35px;
+  height: 40px;
   position: sticky;
   top: 0px;
   background: #860d0d;
-  border-radius: 0% 0% 10% 10%;
+  border-radius: 0% 0% 10% 10%; 
   z-index: 10;
 }
 
@@ -142,11 +139,13 @@ function switchProfissionais() {
   color: #ff1900;
 }
 
-.nav-one i {
-  color: #dbd1d1;
+.nav-one .icon {
+  color: #ff1900;
   margin-top: 8px;
   justify-content: flex-end;
   display: flex;
+  zoom: 1.1;
+
 }
 
 .nav-one {
@@ -167,7 +166,7 @@ function switchProfissionais() {
 }
 
 .nav-two {
-  height: 35px;
+  height: 40px;
   position: sticky;
   top: -1px;
   background: #860d0d;
@@ -185,17 +184,16 @@ function switchProfissionais() {
   text-decoration: none;
   cursor: pointer;
   margin: 0 14px 0 6px;
-  font-size: 1.2em;
   color: #ff1900;
 }
 
-.nav-two i {
-  color: #dbd1d1;
+.nav-two .icon {
+ color: #ff1900;
   margin-top: 8px;
-  display: flex;
   justify-content: flex-end;
+  display: flex;
+  zoom: 1.1;
 }
-
 .nav-two div {
   display: flex;
   justify-content: flex-end;
@@ -207,6 +205,8 @@ function switchProfissionais() {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+    font-weight: 700;
+
 }
 
 .nav-tree a {
@@ -219,7 +219,17 @@ function switchProfissionais() {
   font-size: 1.2em;
   color: #efc289;
   text-transform: uppercase;
-  margin: 35px 0 0 0;
+  margin: 55px 0 0 0 ;
+}
+.nav-tree a:nth-child(1) {
+  margin-top: 130px;
+}
+
+.nav-tree a:nth-child(3), .nav-tree a:nth-child(4) {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: flex-start;
 }
 
 

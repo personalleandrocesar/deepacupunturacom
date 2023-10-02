@@ -951,7 +951,7 @@ code {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 20px 0 5px 0;
+    padding: 25px 0 5px 0;
     margin-top: -10px;
 }
 
