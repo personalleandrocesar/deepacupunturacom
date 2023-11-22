@@ -29,7 +29,7 @@
         <Icon name="fa6-brands:square-instagram"/> Instagram
       </a>
 
-      <a href="https://calendar.app.google/ymqxNr4rSBaRT7m59">
+      <a href="https://cal.com/deepacupuntura/acupuntura" target="_blank">
         <Icon name="ph:calendar-plus-fill"/> Agenda
       </a>
         <a href="tel:+21935003822">
