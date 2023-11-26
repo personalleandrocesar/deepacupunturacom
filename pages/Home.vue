@@ -6,7 +6,7 @@
 
       <div>
         <h1>Deep Acupuntura</h1>
-        <h4>| Clinica de Medicina Chinesa |d </h4>
+        <h4>| Clinica de Medicina Chinesa |</h4>
       </div>
     
     </div>
