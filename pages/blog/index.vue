@@ -40,13 +40,6 @@
                 <p>Acupuntura consiste na aplicação de agulhas em pontos específicos do corpo, chamados de ‘pontos de acupuntura’ ou ‘acupontos’, ...</p>
             </div>
           </NuxtLink>
-          <NuxtLink to="/blog/o-que-e-acupuntura" class='main-five-card'>
-            <img src='~/assets/img/feedSeven.jpg' alt=''>
-            <div>
-              <h4>O que é Acupuntura?</h4>
-                <p>Acupuntura consiste na aplicação de agulhas em pontos específicos do corpo, chamados de ‘pontos de acupuntura’ ou ‘acupontos’, ...</p>
-            </div>
-          </NuxtLink>
           <br>
           <br>
         </div>
@@ -59,16 +52,12 @@
                 <p>Acupuntura consiste na aplicação de agulhas em...</p>
             </div>
           </NuxtLink>
-          <NuxtLink to="/blog/o-que-e-acupuntura" class='main-six-card'>
-            <img src='~/assets/img/feedSeven.jpg' alt=''>
-            <div>
-              <h4>O que é Acupuntura?</h4>
-                <p>Acupuntura consiste na aplicação de agulhas em...</p>
-            </div>
-          </NuxtLink>
-          <br>
           <br>
         </div>
+        <br>
+        <br>
+        <br>
+        <br>
 
     </div>
 </template>
@@ -352,10 +341,11 @@ code {
   color: #fff;
   background-color: #860d0d;
   overflow-x: auto;
-  height: 200px;
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
+  flex-wrap: wrap;
+
 }
 
 .main-six a p {
@@ -405,8 +395,14 @@ code {
   align-items: center;
   text-align: center;
   flex-direction: column;
+  width: 47.9%;
+  height: 200px;
 }
 
+.main-six-card:nth-child(2n) {
+ margin-left: -5px;
+ margin-right: 5px;
+}
 .main-six-card:hover {
   color: #efc289;
     border: solid 0.5px #ff1900;
