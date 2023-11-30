@@ -1,3 +1,11 @@
+<script setup>
+ const grid = ref(true)
+ const contentGrid = ref(true)
+ const switLayout = () => {
+  grid.value = !grid.value
+  contentGrid.value = !contentGrid.value
+ }
+</script>
 <template>
     <NavTopTwo/>
     <NavBottomTwo/>
@@ -10,18 +18,52 @@
                     <Icon name="gg:feed" /> Blog
                 </h5>
             </div>
+            <div>
+                <h5 v-if="grid" @click="switLayout">
+                  <Icon name="bx:grid-alt" /> 
+                </h5>
+                <h5 v-else @click="switLayout">
+                  <Icon name="majesticons:checkbox-list-detail-line" />
+                </h5>
+            </div>
         </div>
 
 
 
         <div class='divider'></div>
-        <div class='main-five'>
+        <div class='main-five' v-if="contentGrid">
 
           <NuxtLink to="/blog/o-que-e-acupuntura" class='main-five-card'>
             <img src='~/assets/img/feedSeven.jpg' alt=''>
             <div>
               <h4>O que é Acupuntura?</h4>
                 <p>Acupuntura consiste na aplicação de agulhas em pontos específicos do corpo, chamados de ‘pontos de acupuntura’ ou ‘acupontos’, ...</p>
+            </div>
+          </NuxtLink>
+          <NuxtLink to="/blog/o-que-e-acupuntura" class='main-five-card'>
+            <img src='~/assets/img/feedSeven.jpg' alt=''>
+            <div>
+              <h4>O que é Acupuntura?</h4>
+                <p>Acupuntura consiste na aplicação de agulhas em pontos específicos do corpo, chamados de ‘pontos de acupuntura’ ou ‘acupontos’, ...</p>
+            </div>
+          </NuxtLink>
+          <br>
+          <br>
+        </div>
+        <div class='main-six' v-else>
+
+          <NuxtLink to="/blog/o-que-e-acupuntura" class='main-six-card'>
+            <img src='~/assets/img/feedSeven.jpg' alt=''>
+            <div>
+              <h4>O que é Acupuntura?</h4>
+                <p>Acupuntura consiste na aplicação de agulhas em...</p>
+            </div>
+          </NuxtLink>
+          <NuxtLink to="/blog/o-que-e-acupuntura" class='main-six-card'>
+            <img src='~/assets/img/feedSeven.jpg' alt=''>
+            <div>
+              <h4>O que é Acupuntura?</h4>
+                <p>Acupuntura consiste na aplicação de agulhas em...</p>
             </div>
           </NuxtLink>
           <br>
@@ -64,9 +106,9 @@ code {
 
 .main-one {
     display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    margin: 0px 0 0 0;
+    justify-content:space-between;
+    flex-direction: row;
+    margin: 0px 10px 0 0;
     color: #efc289;
     background: #860d0d;
     overflow-x: auto;
@@ -298,6 +340,80 @@ code {
 }
 
 .main-five p {
+  padding: 0px;
+  margin:0px 10px 5px 0px;
+  font-size: .9em;
+}
+.main-six {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  margin: -10px 0 0 0;
+  color: #fff;
+  background-color: #860d0d;
+  overflow-x: auto;
+  height: 200px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.main-six a p {
+  color: #fff;
+}
+
+.main-six img {
+  height: 75px;
+  margin: 0px 10px;
+}
+
+.main-six i {
+  font-size: 1em;
+  color: #fff;
+}
+
+.main-six h4 {
+  margin: 0px 0 0 10px;
+  color: #efc289;
+  text-shadow: -1px 1px 10px #efc289;
+}
+
+.main-six h5:nth-child(1) {
+  margin: 0px auto 5px auto;
+  color: #fff;
+}
+
+.main-six h5 {
+  margin: 0px 10px 0px 10px;
+  color: #4fe708;
+}
+
+.main-six div {
+  border-radius: 3% 3% 3% 3%;
+}
+
+.main-six-card {
+  margin: 7px 10px 0 5px;
+  font-size: 14px;
+  color: #ddd;
+  border: solid .5px #d8d8d840;
+  border-radius: 7px;
+  transition: all .3s linear;
+  background-color: #d8d8d820;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.main-six-card:hover {
+  color: #efc289;
+    border: solid 0.5px #ff1900;
+    text-shadow: -1px 1px 10px #efc289;
+}
+
+.main-six p {
   padding: 0px;
   margin:0px 10px 5px 0px;
   font-size: .9em;
