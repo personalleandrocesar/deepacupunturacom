@@ -12,20 +12,6 @@
 
         </div>
         <div class='main-two'>
-            <!-- <code v-else-if="Math.random() > 0.5">
-              <i class="fa-solid fa-quote-left"></i> Nascer, morrer, renascer ainda, progredir sempre, tal é a lei.<br>
-              Allan Kardec
-            </code>
-        <code v-else-if="Math.random() > 0.5">
-              <i class="fa-solid fa-quote-left"></i> Para crer, não basta ver, é necessário compreender.
-              <br>
-              Allan Kardec
-            </code>
-        <code v-else>
-              <i class="fa-solid fa-quote-left"></i> De uma forma ou de outra, se a evolução humana é para continuar, teremos de aprender a apreciar mais a vida completamente.
-              <br>
-              Mihaly Csikszentmihalyi
-            </code> -->
         </div>
 
         <div class='main-tree'>

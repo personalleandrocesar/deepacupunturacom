@@ -11,11 +11,12 @@ const valory = () => {
     choose.value = 2
 }
 
-const vTerapy = ref(true)
+const vTerapy = ref(false)
 
-const vValory = ref(false)
+const vValory = ref(true)
 
 console.log(choose.value);
+
 
 const d = () => {
     if (choose.value === 1) {
@@ -26,37 +27,32 @@ const d = () => {
         vTerapy = false
         vValory = true
 
-    }
-}
+}}
 
 </script>
 
 <template>
-    <div  class="anima">
+        <div  class="anima">
 
 
-        <div class='main-tree'>
-            <div  >
-                <NuxtLink :class="{ active: vTerapy }" @click="terapy()"  to="/terapias"><Icon name="mingcute:yinyang-fill"/> Terapias</NuxtLink>
+            <div class='main-tree'>
+                <div  >
+                    <NuxtLink :class="{ active: vTerapy }" @click="terapy()"  to="/terapias"><Icon name="mingcute:yinyang-fill"/> Terapias</NuxtLink>
+                </div>
+                <div>
+                    <NuxtLink :class="{ active: vValory }"  @click="valory()" to="/valores"><Icon name="mingcute:receive-money-fill"/> Valores</NuxtLink>
+                </div>
             </div>
-            <div>
-                <NuxtLink :class="{ active: vValory }"  @click="valory()" to="/valores"><Icon name="mingcute:receive-money-fill"/> Valores</NuxtLink>
-            </div>
-        </div>
         <div class='main-four'>
             <div class='main-four-card'>
-                <NuxtLink to="/terapias">Todas</NuxtLink >
-                <NuxtLink to="/terapias/acupuntura">Acupuntura</NuxtLink >
-                    <NuxtLink to="/terapias/auriculoterapia">Auriculoterapia</NuxtLink >
-                    <NuxtLink to="/terapias/ventosaterapia">Ventosaterapia</NuxtLink >
-                        <NuxtLink to="/terapias/craniopuntura">Crâniopuntura</NuxtLink >
-                        <NuxtLink to="/terapias/formulas">Fórmulas</NuxtLink >
+                <NuxtLink to="/valores">Destaques</NuxtLink >
+                <NuxtLink to="/valores/acupuntura">Pacotes</NuxtLink >
+                    <NuxtLink to="/valores/auriculoterapia">Assinatutas</NuxtLink >
             </div>
         </div>
 
 
 
-        <!-- <RouterView/> -->
 
         <div class='divider'></div>
 
@@ -191,11 +187,11 @@ code {
     flex-direction: row;
     margin: 0px 0 0 0;
     color: #efc289;
-    background: #860d0d;
     overflow-x: auto;
-    
-    
+
+
 }
+
 .main-tree a {
     display: flex;
     justify-content: center;
@@ -220,37 +216,37 @@ code {
 
 .main-four {
     display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
     margin: 0px 0 10px 0;
     color: #fff;
     background: #860d0d;
-    overflow-x: auto;
 
-    
+
 }
 
 ::-webkit-scrollbar {
-  width: 5px;
-  height: 5px;
+    width: 5px;
+    height: 5px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px transparent;
-  border-radius: 3px;
+    box-shadow: inset 0 0 5px transparent;
+    border-radius: 3px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: transparent;
-  border-radius: 3px;
+    background: transparent;
+    border-radius: 3px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: transparent;
-} 
+    background: transparent;
+}
 
 .main-four i {
     font-size: 1.2em;
@@ -262,39 +258,31 @@ code {
 }
 
 .main-four-card {
-    margin: -10px 0px 0px 5px;
+    margin: -10px 0 0px 0px;
     height: 50px;
     display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    
     
 }
 
 
 .main-four-card a {
     border: solid .1px #dddddd54;
-    padding: 2px 6px;
     margin: 10px 4px;
     border-radius: 0% 10% 10% 10%;
-    
-    padding: 4px;
     font-size: 14px;
     color: #efc289;
     border: solid .5px #d8d8d840;
     border-radius: 7px;
     transition: all .3s linear;
+    padding: 3px 25px;
     background-color: #d8d8d840;
-
+    justify-content: space-around;
+    justify-content: space-between;
     display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
 }
 
 .main-four-card a:hover {
-        color: #efc289;
+    color: #efc289;
     border: solid 0.5px #ff1900;
     text-shadow: -1px 1px 10px #efc289;
 }
@@ -311,7 +299,7 @@ code {
     padding: 0px 10px 0px 10px;
     border-radius: 12% 12% 12% 0%;
 
-    
+
 }
 
 .main-four-card p {
@@ -385,6 +373,7 @@ a.router-link-exact-active {
     border-radius: 7px;
     text-shadow: -1px 1px 10px #efc289;
 }
+
 .active {
     background-color: #ff190060;
     color: #efc289;
@@ -392,6 +381,7 @@ a.router-link-exact-active {
     text-shadow: -1px 1px 10px #efc289;
     z-index: 100;
 }
+
 
 @media only screen and (max-width: 369px) {}
 </style>

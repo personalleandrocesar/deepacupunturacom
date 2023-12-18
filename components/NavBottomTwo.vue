@@ -1,29 +1,51 @@
-<script>
-export default {
-  methods: {
-    scrollToTop() {
-      window.scrollTo(0, 0);
-    }
-  }
+<script setup>
+const route = useRoute()
+const choose = useCookie('choose')
+choose.value = choose.value
+
+
+const vTerapy = ''
+const nTerapy = ''
+const f = () => {
+  if (choose.value === 1 || choose.value === 2) {
+    vTerapy = true    
+    nTerapy = false
+  } 
+}
+const fg = () => {
+  if (choose.value === 0) {
+    vTerapy = false    
+    nTerapy = true
+  } 
+}
+const zero = () => {
+  choose.value = 0
+}
+
+console.log(choose.value);
+
+
+const scrollToTop =() => {
+  window.scrollTo(0, 0);
 }
 
 </script>
 <template>
   <div>
     <div class="nav-bottom">
-      <NuxtLink to='/' @click.native="scrollToTop()">
+      <NuxtLink :class="{ noActive: nTerapy }" to='/' >
         <Icon name="material-symbols:home-rounded" />
         <h5>INÍCIO</h5>
       </NuxtLink >
-      <NuxtLink to='/terapias' @click.native="scrollToTop()">
+      <NuxtLink :class="{ active: vTerapy }" to='/terapias' >
         <Icon name="mingcute:yinyang-fill" />
         <h5>TERAPIAS</h5>
       </NuxtLink >
-      <NuxtLink to='/blog' @click.native="scrollToTop()">
+      <NuxtLink :class="{ noActive: nTerapy }" to='/blog' >
         <Icon name="gg:feed" />
         <h5>BLOG</h5>
       </NuxtLink >
-      <NuxtLink to='/local' @click.native="scrollToTop()">
+      <NuxtLink :class="{ noActive: nTerapy }" to='/local' >
         <Icon name="mdi:map-marker-radius" />
         <h5>LOCAL</h5>
       </NuxtLink >
@@ -45,11 +67,6 @@ i {
   font-size: 1.1em;
 }
 
-/*
-  background-color: #6a0707;
-  background-color: #860d0d;
-*/
-
 .nav-bottom {
   position: fixed;
   bottom: .1px;
@@ -64,6 +81,7 @@ i {
   line-height: 0;
   border-radius: 10% 10% 0% 0%;
   box-shadow: 0px .5px 5px #ff190090;
+  z-index: 100;
 }
 
 .nav-bottom div {
@@ -94,6 +112,13 @@ i {
 }
 
 .nav-bottom a.router-link-exact-active {
+  color: #efc289;
+}
+
+.nav-bottom .active {
+  color: #efc289;
+}
+.nav-bottom .noActive {
   color: #efc289;
 }
 </style>
